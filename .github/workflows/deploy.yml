@@ -10,7 +10,7 @@ permissions:
   contents: read   # リポジトリ内容を取得するために必要
 
 env:
-  AWS_REGION: ap-northeast-1
+  AWS_REGION: us-east-1
   ECR_REPOSITORY: test-repository   # ECRリポジトリ名
   ECS_CLUSTER: test-cluster         # ECSクラスター名
   ECS_SERVICE: test-service         # ECSサービス名
